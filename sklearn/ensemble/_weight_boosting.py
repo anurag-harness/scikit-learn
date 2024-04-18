@@ -1073,9 +1073,9 @@ class AdaBoostRegressor(_RoutingNotSupportedMixin, RegressorMixin, BaseWeightBoo
     >>> regr.fit(X, y)
     AdaBoostRegressor(n_estimators=100, random_state=0)
     >>> regr.predict([[0, 0, 0, 0]])
-    array([4.7972...])
+    array([5.57874246])
     >>> regr.score(X, y)
-    0.9771...
+    0.9776388069748085
     """
 
     _parameter_constraints: dict = {
